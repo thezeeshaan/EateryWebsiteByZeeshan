@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen10</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: cursive;
+        color: black;
+        border: border-box;
+        background-color: rgb(63, 126, 185);
+    }
+
+    h2 {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: #093a48;
+        color: wheat;
+        margin-left: 550px;
+        margin-right: 550px;
+
+    }
+
+    h2:hover {
+        font-size: 51px;
+        background-color: #71dae8;
+        color: #093a48;
+        ;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-left: 300px;
+    }
+    table{
+        border: 10px solid #093a48;
+        padding: 3px;
+    }
+
+    th,
+    td {
+        background-color: #093a48;
+        border: 2px solid black;
+        color: wheat;
+        width: 300px;
+        height: 50px;
+    }
+
+    th:hover,
+    td:hover {
+        background-color: #71dae8;
+        color: #093a48;
+    }
+
+    .box {
+        background-image: url('https://th.bing.com/th/id/OIP.-RSUeulAa5mG3etplT-6ggHaE8?pid=ImgDet&w=1152&h=768&rs=1');
+        background-size: cover;
+        height: 400px;
+        width: 30%;
+        
+        border: 30px solid #093a48;
+    }
+
+    .box:hover {
+        border-color: #71dae8;
+        height: 402px;
+        width: 30.5%;
+    }
+    .middle{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .input {
+        background-color: #fff;
+        height: 40px;
+        width: 700px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-left: 100px;
+
+    }
+    .input:hover{
+        border: 3px solid rgb(187, 164, 35);
+    }
+    .comment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+        
+    }
+    .send{
+        border: 2px solid #093a48;
+        padding: 8px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+</style>
+
+<body>
+
+    <header>
+        <p class="one">
+        <h2>Name:Canteen10</h2><br>
+        <h2>Location:Hall10</h2>
+        </p>
+
+        <hr>
+        <p>
+            <h3><i><u>Menu</u></i></h3>
+        <div class="middle">
+           
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Item1</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Item2</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Item3</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Item4</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Item1</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Item2</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Item3</td>
+                    <td>300</td>
+                </tr>
+            </table>
+
+            </p>
+            <div class="box">
+
+            </div>
+        </div>
+        <div class="comment">
+            <input type="text" placeholder="Leave Your Commens" class="input">
+            <div class="send">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
